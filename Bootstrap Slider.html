@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Bootstrap Slide</title>
+    <!-- Load bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Load jquery and bootstrap js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel slide" data-ride="carousel" id="slide">
+      <!-- indikator slide   -->
+      <ul class="carousel-indicators">
+        <li data-target="#slide" data-slide-to="0" class="active"></li>
+        <!-- class active berarti elemen tersebut yang pertama kali ditampilkan saat load halaman -->
+        <li data-target="#slide" data-slide-to="1"></li>
+        <li data-target="#slide" data-slide-to="2"></li>
+        <li data-target="#slide" data-slide-to="3"></li>
+        <li data-target="#slide" data-slide-to="4"></li>
+        <li data-target="#slide" data-slide-to="5"></li>
+        <li data-target="#slide" data-slide-to="6"></li>
+        <li data-target="#slide" data-slide-to="7"></li>
+        <li data-target="#slide" data-slide-to="8"></li>
+        <li data-target="#slide" data-slide-to="9"></li>
+        <li data-target="#slide" data-slide-to="10"></li>
+        <li data-target="#slide" data-slide-to="11"></li>
+      </ul>
+
+      <!-- gambar slide -->
+      <div class="carousel-inner">
+        <h1 align="center" style="color : skyblue"><b>Wisata Alam Indonesia</b></h1>
+        <div class="carousel-item active">
+          <h2 align="center" style="color : skyblue">Pulau Bali</h2>
+          <img src="bali.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Candi Borobudur</h2>
+          <img src="borobudur.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Gunung Bromo</h2>
+          <img src="bromo.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Pulau Bunaken</h2>
+          <img src="bunaken.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Pulau Dermawan</h2>
+          <img src="dermawan.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Green Canyon</h2>
+          <img src="green.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Gunung Ijen</h2>
+          <img src="ijen.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Pegunungan Jayawijaya</h2>
+          <img src="jayawijaya.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Pengunungan Kelimutu</h2>
+          <img src="kelimutu.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Gunung Kerinci</h2>
+          <img src="kerinci.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Pulau Komodo</h2>
+          <img src="komodo.jpg" width="100%" height="500" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 align="center" style="color : skyblue">Pulau Lombok</h2>
+          <img src="lombok.jpg" width="100%" height="500" alt="">
+        </div>
+      </div>
+
+      <!-- navigasi slide -->
+      <a href="#slide" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#slide" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      </div>
+    </div>
+  </body>
+</html>
